@@ -5,7 +5,6 @@ import stylisticPlus from '@stylistic/eslint-plugin-plus';
 import parserTs from '@typescript-eslint/parser';
 import vueParser from 'vue-eslint-parser';
 import eslintVue from 'eslint-plugin-vue';
-
 export default [
   ...eslintVue.configs['flat/recommended'],
   {
